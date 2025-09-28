@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+	<title>Lottery</title>
+
+	<style>
+		.chunkLoadErrorMessage.with-error {
+			background-color: #ff8;
+			border: 1px dashed blue;
+			padding: 10px 0;
+			text-align: center;
+		}
+
+		#chunkLoadErrorMessageSpanish.chunkLoadErrorMessage.with-error {
+			border-top: none;
+		}
+	</style>
+
+	<!-- Content Security Policy corregida -->
+	<meta http-equiv="Content-Security-Policy" content="
+		default-src *;
+		style-src 'self' 'unsafe-inline' fonts.googleapis.com cdn.jsdelivr.net;
+		font-src 'self' fonts.gstatic.com cdn.jsdelivr.net data:;
+		img-src 'self' s3.amazonaws.com/bancaflottery/ s3.amazonaws.com/bancaflotteryqa/ blob: data:;
+		script-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com;
+		media-src 'self' data: blob:;
+	">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="38b7861943f5fd0fe7a3.chunk.css" rel="stylesheet">
+	<link href="361d3cf5287d947daab2.css" rel="stylesheet">
+</head>
+<body>
+	<div id="chunkLoadErrorMessageEnglish" class="chunkLoadErrorMessage"></div>
+	<div id="chunkLoadErrorMessageSpanish" class="chunkLoadErrorMessage"></div>
+	<div id="app"></div>
+
+	<script type="text/javascript" src="38b7861943f5fd0fe7a3.chunk.js"></script>
+	<script type="text/javascript" src="fc0f342e741c1a31fd49.bundle.js"></script>
+</body>
+</html>

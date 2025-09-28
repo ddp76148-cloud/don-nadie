@@ -1,0 +1,30 @@
+/* 🎨 Estilos generales de la página */
+body {
+	background-color: #f0f8ff; /* fondo azul clarito */
+	font-family: Arial, sans-serif; /* fuente */
+	text-align: center; /* centramos el texto */
+	padding: 50px;
+	margin: 0;
+}
+
+/* 🎯 Estilo para el título principal */
+h1 {
+	color: #0077cc; /* azul fuerte */
+	font-size: 48px; /* tamaño grande */
+	margin-bottom: 20px;
+}
+
+/* 📝 Estilo para los párrafos */
+p {
+	font-size: 20px;
+	color: #333; /* gris oscuro */
+}
+
+/* 📦 Caja donde JavaScript pondrá contenido dinámico */
+#app {
+	margin-top: 30px;
+	padding: 20px;
+	border: 2px dashed #0077cc; /* borde azul punteado */
+	background-color: #ffffff; /* fondo blanco */
+	border-radius: 10px; /* esquinas redondeadas */
+}

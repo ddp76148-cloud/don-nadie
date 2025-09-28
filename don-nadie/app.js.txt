@@ -1,0 +1,10 @@
+// Mensaje inicial dinámico
+document.getElementById("app").innerHTML = `
+	<p>Este texto fue agregado con JavaScript ✅</p>
+	<button id="btnSaludo">Haz clic aquí</button>
+`;
+
+// Agregamos interacción al botón
+document.getElementById("btnSaludo").addEventListener("click", function() {
+	alert("¡Hola! Gracias por hacer clic 🎉");
+});
